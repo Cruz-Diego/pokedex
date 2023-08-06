@@ -13,7 +13,7 @@ export default function PokemonDetail() {
   }, [name]);
 
   return (
-    <section className="flex flex-col justify-center items-center gap-4">
+    <section className="flex flex-col justify-center items-center gap-4 pt-12">
       <h1 className="text-7xl">{name}</h1>
       <figure>
         <img src={pokemon?.sprites?.other["official-artwork"]?.front_default} alt=""/>
@@ -34,7 +34,7 @@ export default function PokemonDetail() {
          <p>{pokemon["abilities"]?.[1]?.ability?.name}</p>
         </div>
       </div>
-      <div className="flex gap-7 text-4xl">
+      <div className=" flex gap-7 text-4xl">
         <p>Games</p>
         <p className="text-red-700">{pokemon["game_indices"]?.[0]?.version?.name}</p>
         <p className="text-blue-700">{pokemon["game_indices"]?.[1]?.version?.name}</p>
