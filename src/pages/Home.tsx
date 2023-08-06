@@ -7,8 +7,8 @@ export default function Home() {
             <header>
                 <img className="w-80" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1280px-International_Pok%C3%A9mon_logo.svg.png" alt="" />
             </header>
-            <h1 className=" text-2xl">Este es otro pokedex</h1>
-            <Link to="/pokemon" className="bg-red-500 text-neutral-100 rounded-md p-4">Ir al pokedex</Link>
+            <h1 className=" text-2xl">Hola  Bienvenido</h1>
+            <Link to="/pokemon/bulbasaur" className="bg-red-500 text-neutral-100 rounded-md p-4">Ir al pokédex</Link>
         </main>
     )
 }
